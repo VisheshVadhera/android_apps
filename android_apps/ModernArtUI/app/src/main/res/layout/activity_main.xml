@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="18">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="2">
+
+
+            <View
+                android:id="@+id/leftTop"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#112233"
+                android:layout_weight="1"/>
+
+            <View
+                android:id="@+id/leftBottom"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#ffaa00"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="3">
+
+            <View
+                android:id="@+id/rightTop"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#bbcc22"/>
+
+
+            <View
+                android:id="@+id/rightMid"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#ffba1a8f"/>
+
+
+            <View
+                android:id="@+id/rightBottom"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#aa0055"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seek"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:progress="2"
+        android:progressBackgroundTint="#000000"
+        android:max="100"
+        />
+
+</LinearLayout>
+

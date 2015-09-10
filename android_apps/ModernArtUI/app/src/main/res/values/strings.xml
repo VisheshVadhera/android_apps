@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ModernArtUI</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dialog_message">Inspired By The Works Of Legendary Artists. Click Below To Find Out More!</string>
+    <string name="not_now">Not Now</string>
+    <string name="visit_moma">Visit MOMA</string>
+</resources>
