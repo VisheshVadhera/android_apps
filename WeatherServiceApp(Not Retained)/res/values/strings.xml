@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WeatherServiceApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter_loc">PLease Enter The Location</string>
+    <string name="sync">Get Weather Via SyncService</string>
+    <string name="async">Get Weather Via AsyncService</string>
+    <string name="listView_name">Name</string>
+    <string name="listView_speed">Speed</string>
+    <string name="listView_temp">Temperature</string>
+    <string name="listView_humidity">Humidity</string>
+
+</resources>
