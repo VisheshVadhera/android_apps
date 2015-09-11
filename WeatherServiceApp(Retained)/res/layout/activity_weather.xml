@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_loc" />
+    
+    <LinearLayout android:layout_width="fill_parent"
+        		  android:layout_height="wrap_content"
+        		  android:orientation="horizontal"
+        		  android:gravity="center">
+        
+        <Button
+            android:id="@+id/button_sync"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/sync"
+            android:onClick="runService" />
+        
+        <Button
+            android:id="@+id/button_async"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/async" 
+            android:onClick="runService"/>
+
+    </LinearLayout>
+    
+    <!--  
+    <include android:id="@+id/layout"
+        	 layout="@layout/weather_data_row"/>
+    -->
+    
+    <ListView android:id="@+id/listView1"
+        	  android:layout_height="wrap_content"
+        	  android:layout_width="match_parent" />
+    
+</LinearLayout>
