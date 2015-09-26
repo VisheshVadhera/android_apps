@@ -32,3 +32,5 @@ The project's source code is divided into the following packages:
 4.3 LocationData: This is a Plain Ol' Java Object (POJO) class which wraps metadata related to the location i.e. a latitude, a longitude  and a timestamp, into a LocationData Object.
 
 4.4 LocationServiceProxy: This interface acts as a proxy between the app and the server and is used to create a REST based adapter that sends HTTP Requests to the server.
+
+http://gameprogrammingpatterns.com/contents.html
