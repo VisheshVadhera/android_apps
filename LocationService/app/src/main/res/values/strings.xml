@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LocationServiceApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="prompt_dialog_message">No Internet Connection Available</string>
+    <string name="cancel">Cancel</string>
+    <string name="switch_on_internet">Switch On Internet</string>
+</resources>
